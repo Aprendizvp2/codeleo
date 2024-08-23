@@ -9,6 +9,8 @@ export default function Home() {
       <Swiper
         loop={true}
         centeredSlides={true}
+        draggable={false}
+        allowTouchMove={false}
         autoplay={{
           delay: 4000,
           disableOnInteraction: false,
