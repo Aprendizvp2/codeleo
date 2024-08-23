@@ -5,7 +5,7 @@ import { Autoplay, EffectFade } from "swiper/modules";
 
 export default function Home() {
   return (
-    <div id="home" className="h-screen">
+    <div id="home" className="h-screen w-full">
       <Swiper
         loop={true}
         centeredSlides={true}

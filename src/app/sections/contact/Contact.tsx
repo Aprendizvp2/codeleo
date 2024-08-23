@@ -4,10 +4,10 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
 function Contact() {
   return (
-    <div id="contact" className="px-12 md:px-32 pb-8">
+    <div id="contact" className="px-12 md:px-32">
       <h1
         className="text-3xl md:text-5xl font-bold text-center text-red-600 pt-20 pt-20"
-        data-aos="fade-left"
+        data-aos="fade-up"
       >
         Contact me
       </h1>
