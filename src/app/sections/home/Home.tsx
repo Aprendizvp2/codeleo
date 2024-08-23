@@ -24,7 +24,7 @@ export default function Home() {
               src="https://cdn.mos.cms.futurecdn.net/9QTpESGBXa32D29J77VR3d-1200-80.jpg"
               alt="Web Frontend Developer"
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-center">
+            <div className="absolute inset-0 flex flex-col items-center justify-center zoom-fade-in">
               <p className="text-shadow text-2xl md:text-4xl font-semibold text-white">
                 Hi, I'm Leandro
               </p>
@@ -41,7 +41,7 @@ export default function Home() {
               src="https://offing.es/wp-content/uploads/2020/12/desarrollo-app-movil-articulo.jpg"
               alt="React Native Developer"
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-center">
+            <div className="absolute inset-0 flex flex-col items-center justify-center zoom-fade-in">
               <p className="text-shadow text-2xl md:text-4xl font-semibold text-white">
                 Hi, I'm Leandro
               </p>

@@ -5,15 +5,18 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 function Contact() {
   return (
     <div id="contact" className="px-12 md:px-32 pb-8">
-      <h1 className="text-3xl md:text-5xl font-bold text-center text-red-600 pt-20 pt-20">
+      <h1
+        className="text-3xl md:text-5xl font-bold text-center text-red-600 pt-20 pt-20"
+        data-aos="fade-left"
+      >
         Contact me
       </h1>
-      <p className="text-center text-white py-4">
+      <p className="text-center text-white py-4" data-aos="fade-up">
         I'd love to collaborate with you and help bring your ideas to life. Feel
         free to reach out!
       </p>
       <div className="flex flex-col md:flex-row gap-20 justify-center items-center py-20">
-        <div className="flex flex-col items-center gap-8">
+        <div className="flex flex-col items-center gap-8" data-aos="zoom-in-up">
           <a
             className="p-8 bg-[#262626] rounded-full hover:translate-y-[-5px] ease-out transition duration-500"
             href="https://github.com/Aprendizvp2"
@@ -32,7 +35,7 @@ function Contact() {
             Aprendizvp2
           </a>
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center gap-8" data-aos="zoom-in-up">
           <a
             className="p-8 bg-[#262626] rounded-full hover:translate-y-[-5px] ease-out transition duration-500"
             href="https://mail.google.com/mail/u/0/?fs=1&to=leandro10161999@gmail.com&tf=cm"
@@ -41,7 +44,7 @@ function Contact() {
           >
             <MailIcon fontSize="large" sx={{ color: "white" }} />
           </a>
-          <p className="text-white py-8">Email</p>
+          <p className="text-white">Email</p>
           <a
             className="text-gray-400 hover:underline"
             href="https://mail.google.com/mail/u/0/?fs=1&to=leandro10161999@gmail.com&tf=cm"
@@ -51,7 +54,7 @@ function Contact() {
             leandro10161999@gmail.com
           </a>
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center gap-8" data-aos="zoom-in-up">
           <a
             className="p-8 bg-[#262626] rounded-full hover:translate-y-[-5px] ease-out transition duration-500"
             href="https://www.linkedin.com/in/leandro-navarrete/"
@@ -60,7 +63,7 @@ function Contact() {
           >
             <LinkedInIcon fontSize="large" sx={{ color: "white" }} />
           </a>
-          <p className="text-white py-8">LinkedIn</p>
+          <p className="text-white">LinkedIn</p>
           <a
             className="text-gray-400 hover:underline"
             href="https://www.linkedin.com/in/leandro-navarrete/"

@@ -5,6 +5,7 @@ import Home from "./sections/home/Home";
 import Contact from "./sections/contact/Contact";
 import Footer from "./components/footer/Footer";
 import SmallHeader from "./components/smallheader/SmallHeader";
+import ScrollAnimation from "./components/scrollanimationn/ScrollAnimation";
 import { Hidden } from "@mui/material";
 
 function App() {
@@ -16,10 +17,12 @@ function App() {
       <Hidden smUp>
         <SmallHeader />
       </Hidden>
-      <Home />
-      <Skills />
-      <Contact />
-      <Footer />
+      <ScrollAnimation>
+        <Home />
+        <Skills />
+        <Contact />
+        <Footer />
+      </ScrollAnimation>
     </div>
   );
 }

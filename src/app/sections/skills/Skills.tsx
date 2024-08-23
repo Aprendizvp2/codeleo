@@ -27,10 +27,13 @@ const dataSkills = [
 function Skills() {
   return (
     <div id="skills" className="px-12 md:px-32 pb-8">
-      <h1 className="text-3xl md:text-5xl font-bold text-center text-red-600 pt-20">
+      <h1
+        className="text-3xl md:text-5xl font-bold text-center text-red-600 pt-20"
+        data-aos="fade-up"
+      >
         My skills
       </h1>
-      <p className="text-center text-white py-4">
+      <p className="text-center text-white py-4" data-aos="fade-up">
         I focus on best practices with clean, readable code and thorough
         documentation, ensuring easy maintenance and smooth collaboration.
       </p>
