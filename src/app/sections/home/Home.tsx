@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, EffectFade } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-fade";
-import { Autoplay, EffectFade } from "swiper/modules";
 
 export default function Home() {
   return (

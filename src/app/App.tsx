@@ -7,6 +7,7 @@ import Footer from "./components/footer/Footer";
 import SmallHeader from "./components/smallheader/SmallHeader";
 import ScrollAnimation from "./components/scrollanimationn/ScrollAnimation";
 import { Hidden } from "@mui/material";
+import Projects from "./sections/projects/Projects";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       </Hidden>
       <ScrollAnimation>
         <Home />
+        <Projects />
         <Skills />
         <Contact />
         <Footer />

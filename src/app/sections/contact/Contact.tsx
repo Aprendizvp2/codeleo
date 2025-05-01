@@ -2,11 +2,11 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import MailIcon from "@mui/icons-material/Mail";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 
-function Contact() {
+export default function Contact() {
   return (
-    <div id="contact" className="px-12 md:px-32">
+    <div id="contact" className="px-4 md:px-32 pt-20">
       <h1
-        className="text-3xl md:text-5xl font-bold text-center text-red-600 pt-20 pt-20"
+        className="text-3xl md:text-5xl font-bold text-center text-red-600 py-4"
         data-aos="fade-up"
       >
         Contact me
@@ -15,7 +15,7 @@ function Contact() {
         I'd love to collaborate with you and help bring your ideas to life. Feel
         free to reach out!
       </p>
-      <div className="flex flex-col md:flex-row gap-20 justify-center items-center py-20">
+      <div className="flex flex-col md:flex-row md:gap-20 gap-8 justify-center items-center md:py-20 py-8">
         <div className="flex flex-col items-center gap-8" data-aos="zoom-in-up">
           <a
             className="p-8 bg-[#262626] rounded-full hover:translate-y-[-5px] ease-out transition duration-500"
@@ -78,4 +78,3 @@ function Contact() {
   );
 }
 
-export default Contact;

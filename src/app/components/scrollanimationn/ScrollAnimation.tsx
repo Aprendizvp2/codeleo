@@ -17,7 +17,7 @@ export default function ScrollAnimation({ children }: ScrollAnimationProps) {
       disableMutationObserver: false,
       debounceDelay: 50,
       throttleDelay: 99,
-      offset: 120,
+      offset: 500,
       delay: 0,
       duration: 2000,
       easing: "ease",

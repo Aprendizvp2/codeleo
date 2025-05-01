@@ -38,7 +38,7 @@ export default function SmallHeader(props: HeaderProps) {
     threshold: 0,
     target: window ? window() : undefined,
   });
-  
+
   return (
     <>
       <ElevationScroll {...props}>
@@ -52,7 +52,7 @@ export default function SmallHeader(props: HeaderProps) {
             >
               <div className="flex justify-between items-center">
                 <a href="/">
-                  <img src={icon} className="w-12" alt="icon" />
+                  <img src={icon} className="w-8" alt="icon" />
                 </a>
                 <div className="flex gap-8">
                   <a
@@ -60,6 +60,12 @@ export default function SmallHeader(props: HeaderProps) {
                     href="#home"
                   >
                     Home
+                  </a>
+                  <a
+                    className="text-white hover:text-red-600 transition duration-300 ease-in-out"
+                    href="#projects"
+                  >
+                    Projects
                   </a>
                   <a
                     className="text-white hover:text-red-600 transition duration-300 ease-in-out"
@@ -87,7 +93,7 @@ export default function SmallHeader(props: HeaderProps) {
             >
               <div className="flex justify-between items-center">
                 <a href="/">
-                  <img src={icon} className="w-12" alt="icon" />
+                  <img src={icon} className="w-10" alt="icon" />
                 </a>
                 <div className="flex gap-8">
                   <a
@@ -95,6 +101,12 @@ export default function SmallHeader(props: HeaderProps) {
                     href="#home"
                   >
                     Home
+                  </a>
+                  <a
+                    className="text-white hover:text-red-600 transition duration-300 ease-in-out"
+                    href="#projects"
+                  >
+                    Projects
                   </a>
                   <a
                     className="text-white hover:text-red-600 transition duration-300 ease-in-out"
