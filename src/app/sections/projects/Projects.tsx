@@ -71,7 +71,7 @@ export default function Projects() {
         "Search info about players, teams and tournaments of soccer with best stats",
       type: "mobile",
       screenshot: fifaApp,
-      link: "https://vitrialuminios.com/",
+      link: "https://github.com/Aprendizvp2/fifa",
     },
   ];
 
