@@ -7,6 +7,8 @@ import voyako from "../../assets/projects/voyako.png";
 import meanttobe from "../../assets/projects/meanttobe.png";
 import playmatch from "../../assets/projects/playmatch.png";
 import fifaApp from "../../assets/projects/fifa-app.png";
+import vg2f from "../../assets/projects/vg2f.png";
+
 
 export default function Projects() {
   const [activeTab, setActiveTab] = useState("all");
@@ -73,6 +75,14 @@ export default function Projects() {
       screenshot: fifaApp,
       link: "https://github.com/Aprendizvp2/fifa",
     },
+    {
+      id: 8,
+      title: "Videogames2fun",
+      description: "A website where you can find the best videogames",
+      type: "web",
+      screenshot: vg2f,
+      link: "https://github.com/Aprendizvp2/videogames2fun#",
+    },
   ];
 
   const filteredProjects =
@@ -131,7 +141,7 @@ export default function Projects() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" data-aos="fade-up">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6" data-aos="fade-up">
         <AnimatePresence>
           {filteredProjects.map((project) => (
             <motion.div
@@ -147,7 +157,7 @@ export default function Projects() {
                 <motion.img
                   src={project.screenshot}
                   alt={project.title}
-                  className="w-full h-full object-cover object-center"
+                  className="w-full h-[252px] object-cover object-center"
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 0.3 }}
                 />
