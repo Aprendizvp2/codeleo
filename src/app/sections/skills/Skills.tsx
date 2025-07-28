@@ -100,7 +100,7 @@ export default function Skills() {
       >
         My skills
       </h1>
-      <p className="text-center w-2/3 text-white py-8" data-aos="fade-up">
+      <p className="text-center px-8 text-white py-8" data-aos="fade-up">
         I focus on best practices with clean, readable code and thorough
         documentation, ensuring easy maintenance and smooth collaboration.
       </p>

@@ -11,11 +11,11 @@ export default function Contact() {
       >
         Contact me
       </h1>
-      <p className="text-center text-white py-4" data-aos="fade-up">
+      <p className="text-center text-white px-8 py-4" data-aos="fade-up">
         I'd love to collaborate with you and help bring your ideas to life. Feel
         free to reach out!
       </p>
-      <div className="flex flex-col md:flex-row md:gap-20 gap-8 justify-center items-center md:py-20 py-8">
+      <div className="flex flex-col md:flex-row md:gap-20 gap-8 justify-center items-center py-20">
         <div className="flex flex-col items-center gap-8" data-aos="zoom-in-up">
           <a
             className="p-8 bg-[#262626] rounded-full hover:translate-y-[-5px] ease-out transition duration-500"
