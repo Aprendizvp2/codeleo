@@ -3,7 +3,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import cinthiavalenzuela from "../../assets/projects/cinthiavalenzuela.png";
 import dgtaliza from "../../assets/projects/dgtaliza.png";
 import vitrialuminiosdelvalle from "../../assets/projects/vitrialuminiosdelvalle.png";
-import voyako from "../../assets/projects/voyako.png";
+import kunare from "../../assets/projects/kunare.png";
+import neuropsicologia from "../../assets/projects/neuropsicologia.png";
+import neuromanufacturing from "../../assets/projects/neuromanufacturing.png";
 import meanttobe from "../../assets/projects/meanttobe.png";
 import playmatch from "../../assets/projects/playmatch.png";
 import fifaApp from "../../assets/projects/fifa-app.png";
@@ -16,14 +18,30 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Voyako",
-      description: "Tourism app to discover fantastic places around the world",
+      title: "Kunare",
+      description: "Tourism app to discover fantastic places",
       type: "web",
-      screenshot: voyako,
-      link: "https://www.voyako.com/",
+      screenshot: kunare,
+      link: "https://kunare.co/",
     },
     {
       id: 2,
+      title: "Neuropsicolgía Integral",
+      description: "Neuropsychology center specialized in children and adults",
+      type: "web",
+      screenshot: neuropsicologia,
+      link: "https://cinthiavalenzuela.com/",
+    },
+    {
+      id: 3,
+      title: "NeuroManufacturing Institute",
+      description: "You can find best ways to improve your manufacturing process",
+      type: "web",
+      screenshot: neuromanufacturing,
+      link: "https://cinthiavalenzuela.com/",
+    },
+    {
+      id: 4,
       title: "Cinthia Valenzuela",
       description: "Online store where you can buy premium quality jeans",
       type: "web",
@@ -31,7 +49,7 @@ export default function Projects() {
       link: "https://cinthiavalenzuela.com/",
     },
     {
-      id: 3,
+      id: 5,
       title: "Dgtaliza",
       description:
         "Software development company offering mobile apps, web development and project management",
@@ -40,7 +58,7 @@ export default function Projects() {
       link: "https://dgtaliza.com/",
     },
     {
-      id: 4,
+      id: 6,
       title: "Vitrialuminios del Valle",
       description:
         "Find glass products, shower enclosures, glass doors and aluminum solutions",
@@ -49,7 +67,7 @@ export default function Projects() {
       link: "https://vitrialuminios.com/",
     },
     {
-      id: 5,
+      id: 7,
       title: "Meant To Be",
       description:
         "A dating app where you can meet new people and find your soulmate",
@@ -58,7 +76,7 @@ export default function Projects() {
       link: "https://play.google.com/store/apps/details?id=com.meanttobe&pcampaignid=web_share!",
     },
     {
-      id: 6,
+      id: 8,
       title: "Playmatch",
       description:
         "You can play soccer or found players and fields to play with your friends",
@@ -67,7 +85,7 @@ export default function Projects() {
       link: "https://github.com/Aprendizvp2/playmatch",
     },
     {
-      id: 7,
+      id: 9,
       title: "Fifa-app",
       description:
         "Search info about players, teams and tournaments of soccer with best stats",
@@ -76,7 +94,7 @@ export default function Projects() {
       link: "https://github.com/Aprendizvp2/fifa",
     },
     {
-      id: 8,
+      id: 10,
       title: "Videogames2fun",
       description: "A website where you can find the best videogames",
       type: "web",
@@ -139,9 +157,12 @@ export default function Projects() {
             transition={{ type: "spring", stiffness: 300, damping: 30 }}
           />
         </div>
+         <div className="inline-flex text-red-600 text-center text-2xl bg-transparent rounded-full px-6 py-3 gap-2">
+          <span className="font-bold">{filteredProjects.length}</span>
+        </div>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6" data-aos="fade-up">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-6 py-8" data-aos="fade-up">
         <AnimatePresence>
           {filteredProjects.map((project) => (
             <motion.div
@@ -157,7 +178,7 @@ export default function Projects() {
                 <motion.img
                   src={project.screenshot}
                   alt={project.title}
-                  className="w-full h-[252px] object-cover object-center"
+                  className="w-full object-contain"
                   whileHover={{ scale: 1.05 }}
                   transition={{ duration: 0.3 }}
                 />

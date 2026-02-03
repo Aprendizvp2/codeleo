@@ -14,6 +14,7 @@ import {
   TailwindIcon,
   TypescriptIcon,
 } from "../../assets/icons";
+import { WordPress } from "../../assets/icons/WordPress";
 
 const dataSkills = [
   {
@@ -85,6 +86,11 @@ const dataSkills = [
     id: 14,
     skill: "Kotlin",
     logo: <KotlinIcon className="w-5 h-5 md:w-10 md:h-10" />,
+  },
+  {
+    id: 15,
+    skill: "WordPress",
+    logo: <WordPress className="w-5 h-5 md:w-10 md:h-10" />,
   },
 ];
 
