@@ -6,6 +6,7 @@ import vitrialuminiosdelvalle from "../../assets/projects/vitrialuminiosdelvalle
 import kunare from "../../assets/projects/kunare.png";
 import neuropsicologia from "../../assets/projects/neuropsicologia.png";
 import neuromanufacturing from "../../assets/projects/neuromanufacturing.png";
+import rickandmortylist from "../../assets/projects/rickandmortylist.png";
 import meanttobe from "../../assets/projects/meanttobe.png";
 import playmatch from "../../assets/projects/playmatch.png";
 import fifaApp from "../../assets/projects/fifa-app.png";
@@ -42,6 +43,14 @@ export default function Projects() {
     },
     {
       id: 4,
+      title: "Rick and Morty List",
+      description: "List of Rick and Morty characters with info about them",
+      type: "web",
+      screenshot: rickandmortylist,
+      link: "https://rick-and-morty-nu-nine.vercel.app/",
+    },
+    {
+      id: 5,
       title: "Cinthia Valenzuela",
       description: "Online store where you can buy premium quality jeans",
       type: "web",
@@ -49,7 +58,7 @@ export default function Projects() {
       link: "https://cinthiavalenzuela.com/",
     },
     {
-      id: 5,
+      id: 6,
       title: "Dgtaliza",
       description:
         "Software development company offering mobile apps, web development and project management",
@@ -58,7 +67,7 @@ export default function Projects() {
       link: "https://dgtaliza.com/",
     },
     {
-      id: 6,
+      id: 7,
       title: "Vitrialuminios del Valle",
       description:
         "Find glass products, shower enclosures, glass doors and aluminum solutions",
@@ -67,7 +76,7 @@ export default function Projects() {
       link: "https://vitrialuminios.com/",
     },
     {
-      id: 7,
+      id: 8,
       title: "Meant To Be",
       description:
         "A dating app where you can meet new people and find your soulmate",
@@ -76,7 +85,7 @@ export default function Projects() {
       link: "https://play.google.com/store/apps/details?id=com.meanttobe&pcampaignid=web_share!",
     },
     {
-      id: 8,
+      id: 9,
       title: "Playmatch",
       description:
         "You can play soccer or found players and fields to play with your friends",
@@ -85,7 +94,7 @@ export default function Projects() {
       link: "https://github.com/Aprendizvp2/playmatch",
     },
     {
-      id: 9,
+      id: 10,
       title: "Fifa-app",
       description:
         "Search info about players, teams and tournaments of soccer with best stats",
@@ -94,7 +103,7 @@ export default function Projects() {
       link: "https://github.com/Aprendizvp2/fifa",
     },
     {
-      id: 10,
+      id: 11,
       title: "Videogames2fun",
       description: "A website where you can find the best videogames",
       type: "web",
