@@ -30,7 +30,7 @@ export default function Projects() {
       description: "Neuropsychology center specialized in children and adults",
       type: "web",
       screenshot: neuropsicologia,
-      link: "https://cinthiavalenzuela.com/",
+      link: "https://www.neuropsicologiaintegral.com/",
     },
     {
       id: 3,
@@ -38,7 +38,7 @@ export default function Projects() {
       description: "You can find best ways to improve your manufacturing process",
       type: "web",
       screenshot: neuromanufacturing,
-      link: "https://cinthiavalenzuela.com/",
+      link: "https://neuromanufacturing.com/",
     },
     {
       id: 4,
