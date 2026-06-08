@@ -12,3 +12,6 @@ export { default as TypescriptIcon } from "./TypescriptIcon";
 export { default as ExpoIcon } from "./ExpoIcon";
 export { default as PostgreSQLIcon } from "./PostgreSQLIcon";
 export { default as KotlinIcon } from "./KotlinIcon";
+export { default as WordPressIcon } from "./WordPressIcon";
+export { default as NestJsIcon } from "./NestJsIcon";
+export { default as PhpIcon } from "./PhpIcon";

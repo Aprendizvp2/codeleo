@@ -13,8 +13,10 @@ import {
   ReduxIcon,
   TailwindIcon,
   TypescriptIcon,
+  NestJsIcon,
+  WordPressIcon,
+  PhpIcon,
 } from "../../assets/icons";
-import { WordPress } from "../../assets/icons/WordPress";
 
 const dataSkills = [
   {
@@ -79,7 +81,7 @@ const dataSkills = [
   },
   {
     id: 13,
-    skill: "PosgreSQL",
+    skill: "PostgreSQL",
     logo: <PostgreSQLIcon className="w-5 h-5 md:w-10 md:h-10" />,
   },
   {
@@ -90,7 +92,17 @@ const dataSkills = [
   {
     id: 15,
     skill: "WordPress",
-    logo: <WordPress className="w-5 h-5 md:w-10 md:h-10" />,
+    logo: <WordPressIcon className="w-5 h-5 md:w-10 md:h-10" />,
+  },
+  {
+    id: 16,
+    skill: "NestJs",
+    logo: <NestJsIcon className="w-5 h-5 md:w-10 md:h-10" />,
+  },
+  {
+    id: 17,
+    skill: "PHP",
+    logo: <PhpIcon className="w-5 h-5 md:w-10 md:h-10" />,
   },
 ];
 
